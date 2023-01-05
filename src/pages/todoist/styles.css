@@ -1,0 +1,40 @@
+body {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #fbab7e;
+    background-image: linear-gradient(
+    45deg,
+    #fbab7e 0%,
+        #f7ce68 50%,
+        #fbe4b2 100% 
+    );
+    overflow: hidden;
+}
+
+.list-container {
+    /* position: relative; */
+    width: 400px;
+    padding: 3rem 4rem;
+    border-radius: 5px;
+}
+.list-content {
+    list-style-position: inside;
+    position: relative;
+    width: 320px;
+    padding: 1.2rem;
+    line-height: 1.5rem;
+    background: white;
+    border-radius: 5px;
+}
+
+input:checked ~ span {
+    text-decoration:line-through;
+    color: grey;
+}
+
+input[type='checkbox'] {
+    appearance: none;
+    margin: 0;
+}

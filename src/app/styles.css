@@ -1,0 +1,8 @@
+#home {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+}
